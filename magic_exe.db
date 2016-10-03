@@ -1,0 +1,4 @@
+# Maybe it's a PE?
+>>(0x3c.l)	string	PE\0\0	PE
+>>>(0x3c.l+24)	leshort		0x010b	\b32 executable
+>>>(8.s*16)		string		!32STUB	\b, for MS Windows
