@@ -21,7 +21,7 @@ def is_line_allowed(line):
     if line.startswith("#"):
         # Ignore comments
         return False
-    if line.startswith("!:mime") or line.startswith("!:stregth") or \
+    if line.startswith("!:mime") or line.startswith("!:strength") or \
             line.startswith("!:apple") or line.startswith("!:ext"):
         # Temporarily ignore this
         return False
